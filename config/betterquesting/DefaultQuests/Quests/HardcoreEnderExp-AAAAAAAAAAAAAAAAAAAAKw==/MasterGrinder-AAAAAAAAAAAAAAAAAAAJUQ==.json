@@ -1,4 +1,5 @@
 {
+  "questIDHigh:4": 0,
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
@@ -9,325 +10,205 @@
       "questIDLow:4": 2383
     }
   },
+  "questIDLow:4": 2385,
   "properties:10": {
     "betterquesting:10": {
-      "autoClaim:1": 0,
-      "desc:8": "After conquering most the of content inside the End, it is time for a Master Quest.\nBring forth and slay the following and you shall receive some moderately great loot.",
-      "globalShare:1": 1,
+      "partySingleReward:1": 0,
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
       "icon:10": {
+        "id:8": "HardcoreEnderExpansion:charm",
         "Count:3": 1,
         "Damage:2": 53,
-        "OreDict:8": "",
-        "id:8": "HardcoreEnderExpansion:charm"
+        "OreDict:8": ""
       },
-      "isGlobal:1": 0,
-      "isMain:1": 0,
-      "isSilent:1": 0,
-      "lockedProgress:1": 0,
-      "name:8": "Master Grinder",
-      "partySingleReward:1": 0,
-      "questLogic:8": "AND",
-      "repeatTime:3": 144000,
-      "repeat_relative:1": 1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "random.levelup",
       "snd_update:8": "random.levelup",
-      "taskLogic:8": "AND",
-      "visibility:8": "NORMAL"
-    }
-  },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 2385,
-  "rewards:9": {
-    "0:10": {
-      "choices:9": {
-        "0:10": {
-          "Count:3": 10,
-          "Damage:2": 6,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag",
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "id:2": 35,
-                "lvl:2": 3
-              }
-            }
-          }
-        },
-        "1:10": {
-          "Count:3": 10,
-          "Damage:2": 58,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag",
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "id:2": 35,
-                "lvl:2": 3
-              }
-            }
-          }
-        },
-        "2:10": {
-          "Count:3": 10,
-          "Damage:2": 10,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag",
-          "tag:10": {
-            "ench:9": {
-              "0:10": {
-                "id:2": 35,
-                "lvl:2": 3
-              }
-            }
-          }
-        }
-      },
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:choice"
-    },
-    "1:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 1,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:endoplasm"
-        },
-        "1:10": {
-          "Count:3": 128,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:instability_orb"
-        },
-        "2:10": {
-          "Count:3": 32,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:nether_star"
-        },
-        "3:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:auricion"
-        },
-        "4:10": {
-          "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:arcane_shard"
-        }
-      }
-    },
-    "2:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 2,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "minecraft:fish",
-          "tag:10": {
-            "RepairCost:3": 2,
-            "display:10": {
-              "Name:8": "Greetings from the Solar Man"
-            },
-            "ench:9": {
-              "0:10": {
-                "id:2": 14,
-                "lvl:2": 10
-              }
-            }
-          }
-        }
-      }
+      "globalShare:1": 1,
+      "repeatTime:3": 144000,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "isGlobal:1": 0,
+      "name:8": "Master Grinder",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "After conquering most the of content inside the End, it is time for a Master Quest.\nBring forth and slay the following and you shall receive some moderately great loot."
     }
   },
   "tasks:9": {
     "0:10": {
+      "partialMatch:1": 1,
       "autoConsume:1": 0,
-      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "partialMatch:1": 1,
+      "consume:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "id:8": "minecraft:ender_pearl",
           "Count:3": 1024,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:ender_pearl"
+          "OreDict:8": ""
         },
         "1:10": {
+          "id:8": "minecraft:ender_eye",
           "Count:3": 512,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:ender_eye"
+          "OreDict:8": ""
         },
         "2:10": {
+          "id:8": "HardcoreEnderExpansion:auricion",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:auricion"
+          "OreDict:8": ""
         },
         "3:10": {
+          "id:8": "HardcoreEnderExpansion:enderman_head",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:enderman_head"
+          "OreDict:8": ""
         },
         "4:10": {
+          "id:8": "HardcoreEnderExpansion:essence",
           "Count:3": 512,
           "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:essence"
+          "OreDict:8": ""
         },
         "5:10": {
+          "id:8": "HardcoreEnderExpansion:igneous_rock",
           "Count:3": 256,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:igneous_rock"
+          "OreDict:8": ""
         },
         "6:10": {
+          "id:8": "HardcoreEnderExpansion:fire_shard",
           "Count:3": 256,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:fire_shard"
+          "OreDict:8": ""
         },
         "7:10": {
+          "id:8": "HardcoreEnderExpansion:altar_nexus",
           "Count:3": 32,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:altar_nexus"
+          "OreDict:8": ""
         },
         "8:10": {
+          "id:8": "minecraft:bookshelf",
           "Count:3": 64,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:bookshelf"
+          "OreDict:8": ""
         },
         "9:10": {
+          "id:8": "minecraft:ender_chest",
           "Count:3": 8,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:ender_chest"
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
+      "partialMatch:1": 1,
       "autoConsume:1": 0,
-      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 1,
-      "partialMatch:1": 1,
+      "consume:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "id:8": "minecraft:enchanting_table",
           "Count:3": 8,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "minecraft:enchanting_table"
+          "OreDict:8": ""
         },
         "1:10": {
+          "id:8": "HardcoreEnderExpansion:silverfish_blood",
           "Count:3": 16,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:silverfish_blood"
+          "OreDict:8": ""
         },
         "2:10": {
+          "id:8": "HardcoreEnderExpansion:rune",
           "Count:3": 16,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:rune"
+          "OreDict:8": ""
         },
         "3:10": {
+          "id:8": "HardcoreEnderExpansion:rune",
           "Count:3": 16,
           "Damage:2": 1,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:rune"
+          "OreDict:8": ""
         },
         "4:10": {
+          "id:8": "HardcoreEnderExpansion:rune",
           "Count:3": 16,
           "Damage:2": 2,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:rune"
+          "OreDict:8": ""
         },
         "5:10": {
+          "id:8": "HardcoreEnderExpansion:rune",
           "Count:3": 16,
           "Damage:2": 3,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:rune"
+          "OreDict:8": ""
         },
         "6:10": {
+          "id:8": "HardcoreEnderExpansion:rune",
           "Count:3": 16,
           "Damage:2": 4,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:rune"
+          "OreDict:8": ""
         },
         "7:10": {
+          "id:8": "HardcoreEnderExpansion:rune",
           "Count:3": 4,
           "Damage:2": 5,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:rune"
+          "OreDict:8": ""
         },
         "8:10": {
+          "id:8": "HardcoreEnderExpansion:obsidian_fragment",
           "Count:3": 512,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "HardcoreEnderExpansion:obsidian_fragment"
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
+      "partialMatch:1": 1,
       "autoConsume:1": 0,
-      "consume:1": 1,
       "groupDetect:1": 0,
       "ignoreNBT:1": 0,
       "index:3": 2,
-      "partialMatch:1": 1,
+      "consume:1": 1,
       "requiredItems:9": {
         "0:10": {
+          "id:8": "dreamcraft:item.CoinSurvivorIV",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinSurvivorIV"
+          "OreDict:8": ""
         },
         "1:10": {
+          "id:8": "dreamcraft:item.CoinAdventureIV",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinAdventureIV"
+          "OreDict:8": ""
         },
         "2:10": {
+          "id:8": "dreamcraft:item.CoinDarkWizardIV",
           "Count:3": 1,
           "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "dreamcraft:item.CoinDarkWizardIV"
+          "OreDict:8": ""
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "3:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 3,
-      "required:3": 50,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.EnderGuardian",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -370,25 +251,37 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 100.0,
+        "id:8": "HardcoreEnderExpansion.EnderGuardian",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 100,
+        "UUIDLeast:4": -8748500656776324095,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 4.961299,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -403,24 +296,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -428,49 +328,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 100.0,
-        "Health:2": 100,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14451586693390,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 4.961299,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": -8748500656776324095,
-        "UUIDMost:4": 14451586693390,
-        "id:8": "HardcoreEnderExpansion.EnderGuardian",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 50,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.EnderGuardian",
+      "subtypes:1": 1
     },
     "4:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 4,
-      "required:3": 20,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.Endermage",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -513,25 +394,37 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 80.0,
+        "id:8": "HardcoreEnderExpansion.Endermage",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 80,
+        "UUIDLeast:4": -7862859853865883092,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 4.864903,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -546,24 +439,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -571,49 +471,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 80.0,
-        "Health:2": 80,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14513785924201,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 4.864903,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": -7862859853865883092,
-        "UUIDMost:4": 14513785924201,
-        "id:8": "HardcoreEnderExpansion.Endermage",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 20,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.Endermage",
+      "subtypes:1": 1
     },
     "5:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 5,
-      "required:3": 100,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.AngryEnderman",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -656,25 +537,38 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "canDespawn:1": 1,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 40.0,
+        "id:8": "HardcoreEnderExpansion.AngryEnderman",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 40,
+        "UUIDLeast:4": 5210792825771787805,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 3.925177,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -689,24 +583,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -714,50 +615,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 40.0,
-        "Health:2": 40,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14528534141875,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 3.925177,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": 5210792825771787805,
-        "UUIDMost:4": 14528534141875,
-        "canDespawn:1": 1,
-        "id:8": "HardcoreEnderExpansion.AngryEnderman",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 100,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.AngryEnderman",
+      "subtypes:1": 1
     },
     "6:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 6,
-      "required:3": 250,
-      "subtypes:1": 1,
-      "target:8": "Enderman",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -800,25 +681,39 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "carriedData:2": 0,
+        "PersistenceRequired:1": 0,
+        "HealF:5": 40.0,
+        "id:8": "Enderman",
+        "carried:2": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 40,
+        "UUIDLeast:4": -3415311789640681042,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 5.548686,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -833,24 +728,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -858,51 +760,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 40.0,
-        "Health:2": 40,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14578283577482,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 5.548686,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": -3415311789640681042,
-        "UUIDMost:4": 14578283577482,
-        "carried:2": 0,
-        "carriedData:2": 0,
-        "id:8": "Enderman",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 250,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "Enderman",
+      "subtypes:1": 1
     },
     "7:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 7,
-      "required:3": 125,
-      "subtypes:1": 1,
-      "target:8": "Silverfish",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -945,25 +826,37 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 8.0,
+        "id:8": "Silverfish",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 8,
+        "UUIDLeast:4": 3999125449894859247,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 3.3440542,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -978,24 +871,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -1003,49 +903,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 8.0,
-        "Health:2": 8,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14584582919123,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 3.3440542,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": 3999125449894859247,
-        "UUIDMost:4": 14584582919123,
-        "id:8": "Silverfish",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 125,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "Silverfish",
+      "subtypes:1": 1
     },
     "8:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 8,
-      "required:3": 125,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.Louse",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -1088,25 +969,37 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 20.0,
+        "id:8": "HardcoreEnderExpansion.Louse",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 20,
+        "UUIDLeast:4": -3947420692569688319,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 5.786505,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -1121,24 +1014,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -1146,49 +1046,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 20.0,
-        "Health:2": 20,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14630234520446,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 5.786505,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": -3947420692569688319,
-        "UUIDMost:4": 14630234520446,
-        "id:8": "HardcoreEnderExpansion.Louse",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 125,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.Louse",
+      "subtypes:1": 1
     },
     "9:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 9,
-      "required:3": 125,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.FireGolem",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -1231,25 +1112,37 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 42.0,
+        "id:8": "HardcoreEnderExpansion.FireGolem",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 42,
+        "UUIDLeast:4": -5986217069578582458,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 3.427464,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -1264,24 +1157,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -1289,49 +1189,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 42.0,
-        "Health:2": 42,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14649578844590,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 3.427464,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": -5986217069578582458,
-        "UUIDMost:4": 14649578844590,
-        "id:8": "HardcoreEnderExpansion.FireGolem",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 125,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.FireGolem",
+      "subtypes:1": 1
     },
     "10:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 10,
-      "required:3": 125,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.ScorchedLens",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -1374,25 +1255,37 @@
             "Name:8": "generic.attackDamage"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 32.0,
+        "id:8": "HardcoreEnderExpansion.ScorchedLens",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 32,
+        "UUIDLeast:4": 3225454829034686119,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 4.3397317,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -1407,24 +1300,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -1432,49 +1332,30 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 32.0,
-        "Health:2": 32,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14663783993097,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 4.3397317,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": 3225454829034686119,
-        "UUIDMost:4": 14663783993097,
-        "id:8": "HardcoreEnderExpansion.ScorchedLens",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 125,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.ScorchedLens",
+      "subtypes:1": 1
     },
     "11:10": {
-      "damageType:8": "",
       "ignoreNBT:1": 1,
       "index:3": 11,
-      "required:3": 75,
-      "subtypes:1": 1,
-      "target:8": "HardcoreEnderExpansion.HauntedMiner",
       "targetNBT:10": {
-        "AbsorptionAmount:5": 0.0,
-        "Air:2": 300,
-        "AttackTime:2": 0,
+        "ForgeData:10": {},
         "Attributes:9": {
           "0:10": {
             "Base:6": 0.0,
@@ -1509,25 +1390,37 @@
             "Name:8": "generic.followRange"
           }
         },
-        "CanPickUpLoot:1": 0,
+        "Invulnerable:1": 0,
+        "AbsorptionAmount:5": 0.0,
+        "PortalCooldown:3": 0,
+        "FallDistance:5": 0.0,
+        "DeathTime:2": 0,
+        "DropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085,
+          "4:5": 0.085
+        },
+        "PersistenceRequired:1": 0,
+        "HealF:5": 100.0,
+        "id:8": "HardcoreEnderExpansion.HauntedMiner",
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "Leashed:1": 0,
+        "Health:2": 100,
+        "UUIDLeast:4": -206760361555421862,
+        "Air:2": 300,
+        "Dimension:3": 0,
+        "OnGround:1": 0,
+        "Rotation:9": {
+          "0:5": 2.7762303,
+          "1:5": 0.0
+        },
         "CreatureInfusion:10": {
-          "InfusionCosts:10": {
-            "Aspects:9": {}
-          },
-          "Infusions:11": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
           "PlayerInfusions:11": [
             0,
             0,
@@ -1542,24 +1435,31 @@
             0,
             0
           ],
-          "sitting:1": 0,
+          "InfusionCosts:10": {
+            "Aspects:9": {}
+          },
+          "tumorWarpTemp:3": 0,
+          "Infusions:11": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
           "toggleClimb:1": 0,
           "toggleInvisible:1": 0,
           "tumorWarp:3": 0,
-          "tumorWarpPermanent:3": 0,
-          "tumorWarpTemp:3": 0
+          "sitting:1": 0,
+          "tumorWarpPermanent:3": 0
         },
         "CustomName:8": "",
-        "CustomNameVisible:1": 0,
-        "DeathTime:2": 0,
-        "Dimension:3": 0,
-        "DropChances:9": {
-          "0:5": 0.085,
-          "1:5": 0.085,
-          "2:5": 0.085,
-          "3:5": 0.085,
-          "4:5": 0.085
-        },
         "Equipment:9": {
           "0:10": {},
           "1:10": {},
@@ -1567,37 +1467,134 @@
           "3:10": {},
           "4:10": {}
         },
-        "FallDistance:5": 0.0,
-        "Fire:2": 0,
-        "ForgeData:10": {},
-        "HealF:5": 100.0,
-        "Health:2": 100,
-        "HurtTime:2": 0,
-        "Invulnerable:1": 0,
-        "Leashed:1": 0,
-        "Motion:9": {
-          "0:6": 0.0,
-          "1:6": 0.0,
-          "2:6": 0.0
-        },
-        "OnGround:1": 0,
-        "PersistenceRequired:1": 0,
-        "PortalCooldown:3": 0,
+        "UUIDMost:4": 14690131843042,
         "Pos:9": {
           "0:6": 0.0,
           "1:6": 0.0,
           "2:6": 0.0
         },
-        "Rotation:9": {
-          "0:5": 2.7762303,
-          "1:5": 0.0
-        },
-        "UUIDLeast:4": -206760361555421862,
-        "UUIDMost:4": 14690131843042,
-        "id:8": "HardcoreEnderExpansion.HauntedMiner",
-        "oiltweak.inOil:1": 0
+        "Fire:2": 0,
+        "CanPickUpLoot:1": 0,
+        "HurtTime:2": 0,
+        "AttackTime:2": 0,
+        "oiltweak.inOil:1": 0,
+        "CustomNameVisible:1": 0
       },
-      "taskID:8": "bq_standard:hunt"
+      "damageType:8": "",
+      "required:3": 75,
+      "taskID:8": "bq_standard:hunt",
+      "target:8": "HardcoreEnderExpansion.HauntedMiner",
+      "subtypes:1": 1
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:choice",
+      "index:3": 0,
+      "choices:9": {
+        "0:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 10,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 6,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 10,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 58,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "enhancedlootbags:lootbag",
+          "Count:3": 10,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 3,
+                "id:2": 35
+              }
+            }
+          },
+          "Damage:2": 10,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "1:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 1,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "HardcoreEnderExpansion:endoplasm",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "HardcoreEnderExpansion:instability_orb",
+          "Count:3": 128,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "minecraft:nether_star",
+          "Count:3": 32,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "HardcoreEnderExpansion:auricion",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        },
+        "4:10": {
+          "id:8": "HardcoreEnderExpansion:arcane_shard",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    },
+    "2:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 2,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "minecraft:fish",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 10,
+                "id:2": 14
+              }
+            },
+            "RepairCost:3": 2,
+            "display:10": {
+              "Name:8": "Greetings from the Solar Man"
+            }
+          },
+          "Damage:2": 3,
+          "OreDict:8": ""
+        }
+      }
     }
   }
 }
