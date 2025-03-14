@@ -3,7 +3,379 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
+      "questIDLow:4": 1926
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1546
+    },
+    "2:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 15
+    },
+    "3:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 17
+    },
+    "4:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 18
+    },
+    "5:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 19
+    },
+    "6:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 20
+    },
+    "7:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 21
+    },
+    "8:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 22
+    },
+    "9:10": {
+      "questIDHigh:4": -2157870659866113684,
+      "questIDLow:4": -8191827436027574183
+    },
+    "10:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 23
+    },
+    "11:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 535
+    },
+    "12:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 24
+    },
+    "13:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 26
+    },
+    "14:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 27
+    },
+    "15:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 28
+    },
+    "16:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 29
+    },
+    "17:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2333
+    },
+    "18:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 30
+    },
+    "19:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 31
+    },
+    "20:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 32
+    },
+    "21:10": {
+      "questIDHigh:4": 7905693324829737052,
+      "questIDLow:4": -6697627242772387263
+    },
+    "22:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2720
+    },
+    "23:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 33
+    },
+    "24:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2721
+    },
+    "25:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 34
+    },
+    "26:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 35
+    },
+    "27:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 36
+    },
+    "28:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 37
+    },
+    "29:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 38
+    },
+    "30:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1831
+    },
+    "31:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 39
+    },
+    "32:10": {
+      "questIDHigh:4": 0,
       "questIDLow:4": 40
+    },
+    "33:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 41
+    },
+    "34:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 42
+    },
+    "35:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 43
+    },
+    "36:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2737
+    },
+    "37:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 945
+    },
+    "38:10": {
+      "questIDHigh:4": 4673371915106402541,
+      "questIDLow:4": -6848797731239430532
+    },
+    "39:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 947
+    },
+    "40:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 693
+    },
+    "41:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 695
+    },
+    "42:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 825
+    },
+    "43:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 826
+    },
+    "44:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1851
+    },
+    "45:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1852
+    },
+    "46:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2876
+    },
+    "47:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1085
+    },
+    "48:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1476
+    },
+    "49:10": {
+      "questIDHigh:4": -8650347315666466864,
+      "questIDLow:4": -9128088765873917748
+    },
+    "50:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1095
+    },
+    "51:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1864
+    },
+    "52:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1738
+    },
+    "53:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1866
+    },
+    "54:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 74
+    },
+    "55:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 75
+    },
+    "56:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 718
+    },
+    "57:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2897
+    },
+    "58:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 727
+    },
+    "59:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 3031
+    },
+    "60:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 472
+    },
+    "61:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1496
+    },
+    "62:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 728
+    },
+    "63:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1497
+    },
+    "64:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 729
+    },
+    "65:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 473
+    },
+    "66:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 474
+    },
+    "67:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 862
+    },
+    "68:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 863
+    },
+    "69:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 864
+    },
+    "70:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 480
+    },
+    "71:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1504
+    },
+    "72:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1505
+    },
+    "73:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 481
+    },
+    "74:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1506
+    },
+    "75:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 482
+    },
+    "76:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2402
+    },
+    "77:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 483
+    },
+    "78:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1508
+    },
+    "79:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 2404
+    },
+    "80:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 485
+    },
+    "81:10": {
+      "questIDHigh:4": 7836976352036995675,
+      "questIDLow:4": -7957069611279940583
+    },
+    "82:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 486
+    },
+    "83:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 487
+    },
+    "84:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 488
+    },
+    "85:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1129
+    },
+    "86:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 489
+    },
+    "87:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 491
+    },
+    "88:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 492
+    },
+    "89:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 494
+    },
+    "90:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 498
+    },
+    "91:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1146
+    },
+    "92:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 1790
+    },
+    "93:10": {
+      "questIDHigh:4": -6458462290926483945,
+      "questIDLow:4": -5030660532125308103
     }
   },
   "questIDLow:4": 44,
